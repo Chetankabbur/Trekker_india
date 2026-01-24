@@ -1,5 +1,3 @@
-
-
 "use client"
 
 import { Facebook, Instagram, MessageCircle, Copy, ExternalLink, X } from "lucide-react"
@@ -54,7 +52,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-gray-600 font-poppins">
               <li>
                 <a href="tel:+911234567890" className="text-gray-600 hover:text-black transition">
-                  +91 9740610208
+                  +91 9649646645
                 </a>
               </li>
               <li>

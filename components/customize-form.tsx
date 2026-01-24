@@ -59,7 +59,7 @@ ${formData.specialRequests ? `*Special Requests:* ${formData.specialRequests}` :
 
         // Encode message for WhatsApp URL
         const encodedMessage = encodeURIComponent(message)
-        const whatsappNumber = "916362816443" // Trekkar India WhatsApp number
+        const whatsappNumber = "919649646645" // Trekkar India WhatsApp number
         const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`
 
         // Open WhatsApp
