@@ -6,7 +6,7 @@ import { useState } from "react"
 import TrekCard from "./trek-card"
 
 export default function SeasonalTreks() {
-  const [activeFilter, setActiveFilter] = useState("winter")
+  const [activeFilter, setActiveFilter] = useState("monsoon")
 
   const seasons = [
     { id: "monsoon", label: "Monsoon (Jul–Oct)", emoji: "🌧️" },
@@ -85,21 +85,19 @@ export default function SeasonalTreks() {
     summer: [
       {
         id: 3,
-        slug: "gokarna-escape",
-        title: "Gokarna Escape",
-        image: "/gokarna-beach-trek.jpg",
-        location: "Gokarna",
-        duration: "3 Days",
-        price: "₹40,000",
+        title: "Gokarana Beach Trek",
+        image: "/karnataka/Gokarana.jpg",
+        location: "Gokarana",
+        duration: "2 Days",
+        price: "₹ 3,999/-",
       },
       {
         id: 4,
-        slug: "kerala-escape",
-        title: "Kerala Escape",
-        image: "/kerala-backwaters-trek.jpg",
-        location: "Kerala",
-        duration: "5 Days",
-        price: "₹45,000",
+        title: "Hampi Backpack Trip",
+        image: "/karnataka/Hampi.jpg",
+        location: "Hampi",
+        duration: " 2 Days",
+        price: "₹ 4,499/-",
       },
     ],
 
