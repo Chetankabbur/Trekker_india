@@ -91,32 +91,30 @@ export default function Footer() {
           </div>
         </div>
 
+        <div className="flex gap-6 mb-10 justify-center">
+          <a
+            href="https://www.facebook.com/TrekkarIndia"
+            className="text-gray-600 hover:text-black transition"
+          >
+            <Facebook size={28} />
+          </a>
+
+          <a
+            href="https://www.instagram.com/trekkarindia/"
+            className="text-gray-600 hover:text-black transition"
+          >
+            <Instagram size={28} />
+          </a>
+
+          <a
+            href="#"
+            className="text-gray-600 hover:text-black transition"
+          >
+            <MessageCircle size={28} />
+          </a>
+        </div>
         {/* Social & Copyright */}
-        <div className="border-t border-gray-200 pt-8 flex flex-col md:flex-row items-center justify-between">
-          <div className="flex gap-3 mb-6 md:mb-0">
-            <button className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition">
-              <Copy size={16} />
-            </button>
-            <button className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition">
-              <ExternalLink size={16} />
-            </button>
-            <button className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center hover:bg-gray-300 transition">
-              <X size={16} />
-            </button>
-          </div>
-
-          <div className="flex gap-4 mb-6 md:mb-0">
-            <a href="https://www.facebook.com/TrekkarIndia" className="text-gray-600 hover:text-black transition">
-              <Facebook size={20} />
-            </a>
-            <a href="https://www.instagram.com/trekkarindia/" className="text-gray-600 hover:text-black transition">
-              <Instagram size={20} />
-            </a>
-            <a href="#" className="text-gray-600 hover:text-black transition">
-              <MessageCircle size={20} />
-            </a>
-          </div>
-
+        <div className="border-t border-gray-200 pt-8 flex flex-col md:flex-row items-center justify-center">
           <p className="text-xs text-gray-600">© 2026 Trekkarindia. All rights reserved.</p>
         </div>
       </div>

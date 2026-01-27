@@ -14,7 +14,6 @@ export default function Navigation() {
     { name: "Homepage", href: "/" },
     { name: "Treks", href: "/treks" },
     { name: "Customize", href: "/customize" },
-    { name: "About", href: "#about" },
   ]
 
   return (

@@ -15,7 +15,7 @@ export default function TrekDetailPage() {
   const trekId = Number(id)
   const trek = treksData.find((t) => t.id === trekId)
   const [isEnquiryOpen, setIsEnquiryOpen] = useState(false)
-  const whatsappNumber = "919649646645"
+  const whatsappNumber = "916362816443"
 
   if (!trek) {
     return (
@@ -46,23 +46,6 @@ export default function TrekDetailPage() {
           </Link>
           <span>→</span>
           <span className="text-gray-900">{trek.location}</span>
-          <div className="ml-auto flex gap-4">
-            <button className="text-gray-700 hover:text-gray-900">
-              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M15.898 4.045c-1.6-1.6-4.194-1.6-5.792 0l-.707.707-.707-.707c-1.6-1.6-4.194-1.6-5.792 0-1.6 1.6-1.6 4.194 0 5.792l6.499 6.499c.78.78 2.048.78 2.828 0l6.499-6.499c1.6-1.598 1.6-4.194 0-5.792z" />
-              </svg>
-            </button>
-            <button className="text-gray-700 hover:text-gray-900">
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
-                />
-              </svg>
-            </button>
-          </div>
         </div>
 
         <div className="max-w-7xl mx-auto px-6 py-8 text-center border-b border-gray-200">
