@@ -32,20 +32,6 @@ export function TrekImageGallery({ trekName, images }: TrekImageGalleryProps) {
           />
         </div>
       </div>
-
-      {/* Thumbnail Gallery */}
-      <div className="grid grid-cols-3 gap-4">
-        {images.map((image) => (
-          <button
-            key={image.id}
-            onClick={() => setSelectedImage(image)}
-            className={`relative h-24 md:h-32 rounded-lg overflow-hidden transition ${selectedImage.id === image.id ? "ring-2 ring-black" : "hover:opacity-75"
-              }`}
-          >
-            <Image src={image.src || "/placeholder.svg"} alt={image.alt} fill className="object-cover" />
-          </button>
-        ))}
-      </div>
     </div>
   )
 }

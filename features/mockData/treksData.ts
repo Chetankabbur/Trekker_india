@@ -184,7 +184,7 @@ export const treksData = [
       {
         id: 1,
         src: "/karnataka/Gokarana.jpg",
-        alt: "Ladakh Mountains",
+        alt: "Gokarana",
       },
     ],
 
