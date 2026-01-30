@@ -21,7 +21,7 @@ const services = [
     id: 3,
     title: "Weekend Getaways",
     description: "Quick escapes tailored for short breaks and quick mountain experiences.",
-    image: "/weekend-mountain-getaway.jpg",
+    image: "/weekend.jpg",
     color: "bg-stone-700",
   },
   {
