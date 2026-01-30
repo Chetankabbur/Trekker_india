@@ -7,9 +7,23 @@ import Footer from '@/components/footer'
 
 import './globals.css'
 import FloatingWhatsApp from "@/components/floating-whatsapp"
+import { Marcellus, Poppins } from "next/font/google"
 
-const _geist = Geist({ subsets: ["latin"] });
-const _geistMono = Geist_Mono({ subsets: ["latin"] });
+const geist = Geist({ subsets: ["latin"] })
+const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+const marcellus = Marcellus({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-marcellus",
+})
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-poppins",
+})
+
 
 export const metadata: Metadata = {
   title: 'Trekkar India - Where Earth Touches Sky',
@@ -41,7 +55,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-sans antialiased`}>
+      <body className={`
+    ${marcellus.variable}
+    ${poppins.variable}
+    font-sans
+    antialiased
+  `}>
         <Navigation />
         <main>{children}</main>
         <Footer />

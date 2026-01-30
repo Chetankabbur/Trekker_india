@@ -69,7 +69,6 @@ export default function TrekDetailPage() {
             <div className="lg:col-span-1">
               <div className="bg-white">
                 <h3 className="text-xl font-bold mb-6">Travel Details</h3>
-
                 <div className="space-y-6">
                   <div className="flex items-start gap-4">
                     <Clock className="w-5 h-5 text-gray-600 mt-1 flex-shrink-0" />
@@ -78,7 +77,6 @@ export default function TrekDetailPage() {
                       <p className="font-semibold text-gray-900">{trek.duration}</p>
                     </div>
                   </div>
-
                   <div className="flex items-start gap-4">
                     <MapPin className="w-5 h-5 text-gray-600 mt-1 flex-shrink-0" />
                     <div>
@@ -101,7 +99,7 @@ export default function TrekDetailPage() {
             <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-8">
               {/* Price Section */}
               <div>
-                <div className="flex items-baseline gap-3 mb-4">
+                <div className="flex items-baseline gap-3 mb-4 ">
                   <span className="text-4xl font-bold">{trek.price}</span>
                   <span className="text-gray-500 line-through text-lg">{trek.originalPrice}</span>
                 </div>

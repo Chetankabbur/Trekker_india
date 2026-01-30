@@ -1,11 +1,17 @@
 // tailwind.config.js
-
 module.exports = {
+  content: [
+    "./app/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       fontFamily: {
-        marcellus: ['Marcellus', 'serif','poppins'],
+        marcellus: ["var(--font-marcellus)", "serif"],
+        poppins: ["var(--font-poppins)", "sans-serif"],
       },
     },
   },
+  plugins: [],
 }

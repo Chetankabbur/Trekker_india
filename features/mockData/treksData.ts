@@ -264,7 +264,7 @@ export const treksData = [
       {
         id: 1,
         src: "/karnataka/Hampi.jpg",
-        alt: "Ladakh Mountains",
+        alt: "Hampi",
       },
     ],
 
@@ -327,7 +327,7 @@ export const treksData = [
       {
         id: 1,
         src: "/karnataka/Kodachadri.jpg",
-        alt: "Ladakh Mountains",
+        alt: "Kodachadri",
       },
     ],
 
@@ -390,7 +390,7 @@ export const treksData = [
       {
         id: 1,
         src: "/karnataka/Bandaje.jpg",
-        alt: "Ladakh Mountains",
+        alt: "Bandaje",
       },
     ],
     inclusions: [
@@ -453,7 +453,7 @@ export const treksData = [
       {
         id: 1,
         src: "/karnataka/Kudremukh.jpg",
-        alt: "Ladakh Mountains",
+        alt: "Kudremukh",
       },
     ],
     inclusions: [
@@ -1350,7 +1350,7 @@ export const treksData = [
     {
       "id": 1,
       "src": "/northEast/Ayodhya.jpg",
-      "alt": "Chardham Yatra Himalayas"
+      "alt": "Ayodhya"
     }
   ],
   "inclusions": [
@@ -1617,7 +1617,7 @@ export const treksData = [
     {
       "id": 1,
       "src": "/north/Kedarnath.jpg",
-      "alt": "Chardham Yatra Himalayas"
+      "alt": "Kedarnath"
     }
   ],
   "inclusions": [
@@ -1732,7 +1732,7 @@ export const treksData = [
     {
       "id": 1,
       "src": "/north/Kashmir.jpg",
-      "alt": "Chardham Yatra Himalayas"
+      "alt": "Kashmir"
     }
   ],
   "transportation": "Airport transfers and sightseeing by private vehicle",
@@ -1950,13 +1950,6 @@ export const treksData = [
       ]
     }
   ],
-  "contact": {
-    "phone": [
-      "+91-9649646645"
-    ],
-    "email": "trekkarindia@gmail.com",
-    "website": "trekkarindia.com"
-  }
 },
 {
   "id": 61,
@@ -2119,7 +2112,7 @@ export const treksData = [
     {
       "id": 1,
       "src": "/international/Vietnam6.jpg",
-      "alt": "Spiti Valley Winter Landscape"
+      "alt": "Vietnam6"
     }
   ],
   "accommodation": [
@@ -2277,7 +2270,7 @@ export const treksData = [
     {
       "id": 1,
       "src": "/international/Andaman.jpg",
-      "alt": "Spiti Valley Winter Landscape"
+      "alt": "Andaman"
     }
   ],
   "accommodation": [
@@ -2427,7 +2420,7 @@ export const treksData = [
     {
       "id": 1,
       "src":  "/international/Vietnam9-1.jpg",
-      "alt": "Spiti Valley Winter Landscape"
+      "alt": "Vietnam"
     },
   ],
   "transportation": "Airport transfers, internal flights, sightseeing by AC vehicle, and cruise transfers as per itinerary",

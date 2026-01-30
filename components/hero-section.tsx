@@ -20,7 +20,7 @@ export default function HeroSection() {
 
       {/* Text Content */}
       <div className="relative z-10 text-center px-4 mb-4 sm:mb-6 md:mb-8">
-        <h2 className="text-xl sm:text-4xl md:text-5xl lg:text-7xl font-bold text-white leading-tight">
+        <h2 className="text-xl sm:text-4xl md:text-5xl lg:text-7xl font-marcellus text-white leading-tight">
           Where Earth Touches Sky
         </h2>
       </div>
