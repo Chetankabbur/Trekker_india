@@ -15,7 +15,7 @@ export default function TrekDetailPage() {
   const trekId = Number(id)
   const trek = treksData.find((t) => t.id === trekId)
   const [isEnquiryOpen, setIsEnquiryOpen] = useState(false)
-  const whatsappNumber = "916362816443"
+  const whatsappNumber = "919649646645"
 
   if (!trek) {
     return (
