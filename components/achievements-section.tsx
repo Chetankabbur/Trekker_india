@@ -16,7 +16,7 @@ export default function AchievementsSection() {
 
           {/* Image-filled number */}
           <div
-            className="text-7xl md:text-8xl font-bold text-transparent bg-clip-text"
+            className="text-10xl md:text-8xl font-bold text-transparent bg-clip-text"
             style={{
               backgroundImage: "url(/foggy-forest-morning.jpg)",
               backgroundSize: "cover",
