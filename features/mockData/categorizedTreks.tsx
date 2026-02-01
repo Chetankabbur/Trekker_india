@@ -32,7 +32,7 @@ export const categorizedTreks: CategorizedTreks = {
     {
       id: 3,
       title: "Gokarana Beach Trek",
-      image: "/karnataka/Gokarana.jpg",
+      image: "/Gokarana.jpg",
       location: "Gokarana",
       duration: "2 Days",
       price: "₹ 3,999/-",
