@@ -82,7 +82,7 @@ export const categorizedTreks: CategorizedTreks = {
     {
       id: 22,
       title: "Bose peak & Kolukkumalai",
-      image: "/Kolukkumalai.webp",
+      image: "/kolukkumalai.webp",
       location: "Kerala",
       duration: "2 Days",
       price: "₹ 4,999/-",

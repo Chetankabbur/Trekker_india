@@ -724,7 +724,7 @@ export const treksData = [
   images: [
     {
       id: 1,
-      src: "/Kolukkumalai.webp",
+      src: "/kolukkumalai.webp",
       alt: "Kolukkumalai Trek"
     }
   ],
@@ -1854,7 +1854,7 @@ export const treksData = [
   "images": [
     {
       "id": 1,
-      "src": "/north/Manali.jpg",
+      "src": "/north/manali.jpg",
       "alt": "Manali Solang Valley"
     }
   ],

@@ -15,8 +15,8 @@ export default function Home() {
       <HeroSection />
       <CategoriesSection />
       <SeasonalTreks />
-      <BlogsSection />
       <ServicesSection />
+      <BlogsSection />
       <AchievementsSection />
       <TestimonialsSection />
       {/* <Footer /> */}
