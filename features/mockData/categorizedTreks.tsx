@@ -82,7 +82,7 @@ export const categorizedTreks: CategorizedTreks = {
     {
       id: 22,
       title: "Bose peak & Kolukkumalai",
-      image: "/kerala/Kolukkumalai.webp",
+      image: "/Kolukkumalai.webp",
       location: "Kerala",
       duration: "2 Days",
       price: "₹ 4,999/-",
@@ -215,7 +215,7 @@ export const categorizedTreks: CategorizedTreks = {
     {
       id: 71,
       title: "Discover Vietnam in 6 Days",
-      image: "/international/Vietnam6.jpg",
+      image: "/Vietnam6.jpg",
       location: "Vietnam",
       duration: "6 Days",
       price: "₹ 35,999/-",
@@ -223,7 +223,7 @@ export const categorizedTreks: CategorizedTreks = {
     {
       id: 72,
       title: "Vietnam Tour – 8 Nights / 9 Days",
-      image: "/international/Vietnam9-1.jpg",
+      image: "/Vietnam9-1.jpg",
       location: "Vietnam",
       duration: "9 Days",
       price: "₹ 44,999/-",
@@ -231,7 +231,7 @@ export const categorizedTreks: CategorizedTreks = {
     {
       id: 73,
       title: "Explore Andaman & Nicobar Islands",
-      image: "/international/Andaman.jpg",
+      image: "/Andaman.jpg",
       location: "Andaman",
       duration: "6 Days",
       price: "₹ 26,000/-",

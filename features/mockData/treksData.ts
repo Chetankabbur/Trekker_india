@@ -183,7 +183,7 @@ export const treksData = [
     images: [
       {
         id: 1,
-        src: "/karnataka/Gokarana.jpg",
+        src: "/Gokarana.jpg",
         alt: "Gokarana",
       },
     ],
@@ -724,7 +724,7 @@ export const treksData = [
   images: [
     {
       id: 1,
-      src: "/kerala/Kolukkumalai.webp",
+      src: "/Kolukkumalai.webp",
       alt: "Kolukkumalai Trek"
     }
   ],
@@ -2111,7 +2111,7 @@ export const treksData = [
   "images": [
     {
       "id": 1,
-      "src": "/international/Vietnam6.jpg",
+      "src": "/Vietnam6.jpg",
       "alt": "Vietnam6"
     }
   ],
@@ -2269,7 +2269,7 @@ export const treksData = [
   "images": [
     {
       "id": 1,
-      "src": "/international/Andaman.jpg",
+      "src": "/Andaman.jpg",
       "alt": "Andaman"
     }
   ],
@@ -2419,7 +2419,7 @@ export const treksData = [
   "images":  [
     {
       "id": 1,
-      "src":  "/international/Vietnam9-1.jpg",
+      "src":  "/Vietnam9-1.jpg",
       "alt": "Vietnam"
     },
   ],
