@@ -67,7 +67,7 @@ export default function SeasonalTreks() {
       {
         id: 71,
         title: "Discover Vietnam in 6 Days",
-        image: "/international/Vietnam6.jpg",
+        image: "/Vietnam6.jpg",
         location: "Vietnam",
         duration: "6 Days",
         price: "₹ 35,999/-",
@@ -75,7 +75,7 @@ export default function SeasonalTreks() {
       {
         id: 72,
         title: "Vietnam Tour – 8 Nights / 9 Days",
-        image: "/international/Vietnam9-1.jpg",
+        image: "/Vietnam9-1.jpg",
         location: "Vietnam",
         duration: "9 Days",
         price: "₹ 44,999/-",
@@ -86,7 +86,7 @@ export default function SeasonalTreks() {
       {
         id: 3,
         title: "Gokarana Beach Trek",
-        image: "/karnataka/Gokarana.jpg",
+        image: "/Gokarana.jpg",
         location: "Gokarana",
         duration: "2 Days",
         price: "₹ 3,999/-",
@@ -121,7 +121,7 @@ export default function SeasonalTreks() {
       {
         id: 3,
         title: "Gokarana Beach Trek",
-        image: "/karnataka/Gokarana.jpg",
+        image: "/Gokarana.jpg",
         location: "Gokarana",
         duration: "2 Days",
         price: "₹ 3,999/-",
@@ -169,7 +169,7 @@ export default function SeasonalTreks() {
       {
         id: 22,
         title: "Bose peak & Kolukkumalai",
-        image: "/kerala/Kolukkumalai.webp",
+        image: "/Kolukkumalai.webp",
         location: "Kerala",
         duration: "2 Days",
         price: "₹ 4,999/-",
